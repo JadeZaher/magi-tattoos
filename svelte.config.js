@@ -8,9 +8,7 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter({
-		  runtime: '^20.0.0',
-		}),
+		adapter: adapter(),
 	},
 };
 
