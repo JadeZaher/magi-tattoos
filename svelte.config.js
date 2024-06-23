@@ -9,7 +9,7 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-		  runtime: '^18.0.0',
+		  runtime: '^20.0.0',
 		}),
 	},
 };
