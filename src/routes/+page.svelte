@@ -44,7 +44,7 @@
 {/if}
 <div class="grid  place-items-center w-screen h-screen fixed overflow-hidden">
 	<a href="/LearnMore">
-		<button on:mouseenter={handleFocus} on:mouseleave={handleFocus} class="btn btn-outline btn-secondary z-10 absolute left-[45vw] bottom-[15%]"> Learn More </button>
+		<button on:mouseenter={handleFocus} on:mouseleave={handleFocus} class="btn btn-outline btn-secondary z-10 absolute bottom-[10%] left-1/2 transform -translate-x-1/2 -translate-y-1/2"> Learn More </button>
 	</a>
 	<canvas on:mousemove={handleMove} class="top-0 right-0 h-screen w-screen cursor-none fixed overflow-hidden" bind:this={canvas} />
 	{#if !learnMoreFocused}

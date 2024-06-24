@@ -1,7 +1,6 @@
 <script lang="ts">
 	import './app.css';
 	import { onNavigate } from '$app/navigation';
-
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
 
@@ -12,7 +11,7 @@
 			});
 		});
 	});
-	
+
 </script>
 
 <div>

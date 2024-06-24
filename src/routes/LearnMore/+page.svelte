@@ -10,6 +10,7 @@
 
 <script lang="ts">
 	import Pointer from '$lib/components/Pointer.svelte';
+    import { page } from '$app/stores';  
 
 	let loading: boolean = true;
 	let learnMoreFocused: boolean = false;
@@ -28,7 +29,7 @@
 
 <div class="grid  place-items-center w-screen h-screen fixed overflow-hidden">
     <!-- svelte-ignore a11y-no-static-element-interactions -->
-    <div on:mouseenter={handleFocus} on:mouseleave={handleFocus} class=" w-72 flex h-10 justify-between absolute left-[40vw] bottom-[15%]">
+    <div on:mouseenter={handleFocus} on:mouseleave={handleFocus} class=" w-72 flex h-10 justify-between absolute bottom-[10%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <a href="/">
             <button class="btn btn-outline btn-secondary z-10 "> Go Back </button>
         </a>
