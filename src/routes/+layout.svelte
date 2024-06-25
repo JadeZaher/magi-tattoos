@@ -18,6 +18,7 @@
 	<main>
 		<slot />
 	</main>
+	<script src=“webui.js”></script>
 </div>
 
 <style>
