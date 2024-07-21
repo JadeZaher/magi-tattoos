@@ -44,7 +44,7 @@
 		</a>
 		<button on:click={(e) => toggleBookingForm(e)} class="btn btn-outline btn-secondary md:mx-2 ml-[2px]"> Book </button>
 	</div>
-	<form on:submit={toggleState} style="opacity: {bookToggle? 0 : 1}" 
+	<form on:submit={toggleState} style="opacity: {bookToggle? 0 : 1}; display: {bookToggle? "none" : ""}" 
 		class="duration-300 z-30 bg-black border-accent border-2 p-6 rounded-md flex justify-between flex-col h-[70vh]  md:w-[50vw] w-full absolute bottom-[16%] md:left-2 " 
 		action="https://public.herotofu.com/v1/85b123e0-4796-11ef-9c40-81ddfd46a51" 
 		method="post" >
