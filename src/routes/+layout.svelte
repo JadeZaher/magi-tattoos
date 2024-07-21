@@ -44,31 +44,36 @@
 		</a>
 		<button on:click={(e) => toggleBookingForm(e)} class="btn btn-outline btn-secondary md:mx-2 ml-[2px]"> Book </button>
 	</div>
-	<form on:submit={toggleState} style="opacity: {bookToggle? 0 : 1}; display: {bookToggle? "none" : ""}" 
+	<form on:submit={toggleState} style="opacity: {bookToggle? 0 : 1}; transform: {bookToggle? "scale(0)" : "scale(1)"}" 
 		class="duration-300 z-30 bg-black border-accent border-2 p-6 rounded-md flex justify-between flex-col h-[70vh]  md:w-[50vw] w-full absolute bottom-[16%] md:left-2 " 
-		action="https://public.herotofu.com/v1/85b123e0-4796-11ef-9c40-81ddfd46a51" 
-		method="post" >
-		{#if !submitState}
-			<label for="name">Your Name</label>
-			<input class="input" name="Name" id="name" type="text" required />
-			<label for="email">Your Email</label>
-			<input class="input" name="Email" id="email" type="email"  />
-			<label for="email">Your Phone</label>
-			<input class="input" name="Phone" id="email" type="phone"  />
-			<label for="your idea">Your Idea</label>
-			<textarea class="textarea" name="Your Idea" id="idea"></textarea>
+		action="https://public.herotofu.com/v1/85b123e0-4796-11ef-9c40-81ddfd46a512" 
+		method="post" 
+		accept-charset="UTF-8" 
+		>
+		<br> Reach out and I will be in touch soon feel free to reach out for more info at <br>Magitattoos@gmail.com <br>
+			<div class="flex flex-col">
+				<label for="name">Your Name</label>
+				<input class="input" name="Name" id="name" type="text" required />
+			</div>
+			<div class="flex flex-col">
+				<label for="email">Your Email</label>
+				<input class="input" name="Email" id="email" type="email"  />
+			</div>
+			<div class="flex flex-col">
+				<label for="email">Your Phone</label>
+				<input class="input" name="Phone" id="phone" type="tel"  />
+			</div>
+			<div class="flex flex-col">
+				<label for="your idea">Your Idea</label>
+				<textarea class="textarea" rows="3" name="Idea" id="idea"></textarea>
+			</div>
 			<div class="flex w-full">
-				<button class="btn btn-outline btn-accent m-2 ">Book</button>
+				<button type="submit" class="btn btn-outline btn-accent m-2 ">Book</button>
 				<button on:click={(e) => toggleBookingForm(e)} class="btn btn-outline btn-accent m-2 ">Cancel</button>
 			</div>
 			<div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
 				<input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
-			  </div>
-		{:else}
-			<p>Submitted! <br> I will be in touch soon feel free to reach out for more info at <br>Magitattoos@gmail.com
-			</p>
-		{/if}
-	
+			</div>			  
 	  </form>
 	<main>
 		<slot />
