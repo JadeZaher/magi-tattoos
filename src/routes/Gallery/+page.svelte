@@ -20,7 +20,7 @@
 </script>
 
 <svelte:window bind:innerWidth={w}/>
-<div class="slider mt-5" onclick={toggle} reverse="true" style="
+<div class="slider md:mt-0 mt-5" onclick={toggle} reverse="true" style="
         transform: {w < 800?  "": "translateY(20%)"};
         --width: {w < 800? "100vw":"50vw"};
         --height: {w < 800? "85vh":"70vh"};
