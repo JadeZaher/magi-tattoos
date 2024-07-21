@@ -24,7 +24,7 @@
         transform: {w < 800?  "": "translateY(20%)"};
         --width: {w < 800? "100vw":"50vw"};
         --height: {w < 800? "85vh":"70vh"};
-        --quantity: 8;"
+        --quantity: 5;"
     >
     <div class="list">
         <div class="item" style="--position: 1"><img src={Tat2} alt=""></div>
@@ -63,7 +63,7 @@
         position: absolute;
         left: 100%;
         animation: autoRun 20s linear infinite;
-        transition: filter 0.5s;
+        transition: filter 0.2s;
         animation-delay: calc( (10s / var(--quantity)) * (var(--position) - 1) )!important;
     }
     
