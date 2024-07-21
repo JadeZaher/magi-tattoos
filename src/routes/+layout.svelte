@@ -61,7 +61,6 @@
 		method="post" 
 		accept-charset="UTF-8" 
 		>
-		<br> Reach out and I will be in touch soon feel free to reach out for more info at <br>Magitattoos@gmail.com <br>
 			<div class="flex flex-col">
 				<label for="name">Your Name</label>
 				<input class="input" name="Name" id="name" type="text" required />
