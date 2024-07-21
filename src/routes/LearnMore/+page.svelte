@@ -1,12 +1,3 @@
-<svelte:head>
-	<title>Magi Tattoos</title>
-	<meta name="description" content="Welcome to Magi Tattoos, the tricities destination for unique and personalized body art. 
-	I Tyler Magid want to bring your ideas to life with precision and care. From cute to the most hardcore tattoos, 
-	I offer a wide range of styles to suit every preference. 
-	Located in Kennewick Washington, Magi Tattoos prioritizes hygiene, creativity, and client satisfaction.
-	Explore my tattoo gallery and schedule your consultation today to start your tattoo journey.
-	Transform your ideas into lasting art." />
-</svelte:head>
 
 <script lang="ts">
 	import Pointer from '$lib/components/Pointer.svelte';
