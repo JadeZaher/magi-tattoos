@@ -20,10 +20,10 @@
 </script>
 
 <svelte:window bind:innerWidth={w}/>
-<div class="slider" onclick={toggle} bind:this={slider} reverse="true" style="
+<div class="slider mt-5" onclick={toggle} reverse="true" style="
         transform: {w < 800?  "": "translateY(20%)"};
         --width: {w < 800? "100vw":"50vw"};
-        --height: {w < 800? "100vh":"70vh"};
+        --height: {w < 800? "85vh":"70vh"};
         --quantity: 8;"
     >
     <div class="list">
@@ -46,7 +46,7 @@
         mask-image: linear-gradient(
             to right,
             transparent,
-            #000 10% 90%,
+            #000 5% 90%,
             transparent
         );
     }
@@ -71,12 +71,12 @@
         @apply object-cover w-full h-full rounded-2xl shadow-stone-700
     }
     
-    .slider:hover .item{
+    .slider:active .item{
         animation-play-state: paused!important;
         filter: blur(15px);
     }
     
-    .slider .item:hover{
+    .slider .item:active{
         filter: blur(0);
     }
     
