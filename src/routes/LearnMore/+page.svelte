@@ -24,7 +24,7 @@
 			<p>
 				I offer a wide range of styles and am willing try any ideas you might have within the extent of my abilities. 
 				I’m adaptable and I want to work together to create something we both can love. 
-				Located in Kennewick Washington, I prioritizes hygiene, creativity, and client satisfaction. 
+				Located in Kennewick Washington, I prioritize hygiene, creativity, and client satisfaction. 
 				Explore my tattoo gallery and schedule your consultation today to start your tattoo journey.
 				Transform your ideas into lasting art.
 			</p>
