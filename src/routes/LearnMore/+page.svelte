@@ -37,11 +37,4 @@
 			</p>
 		</div>
 	</div>
-	<!-- svelte-ignore a11y-no-static-element-interactions -->
-	<div on:mousemove={handleMove} class="top-0 right-0 h-screen w-screen bg-black cursor-none fixed overflow-hidden z-[-1]"/>
-	{#if !learnMoreFocused}
-	<div  class="h-screen w-screen absolute pointer-events-none ">
-        <svelte:component this={Pointer} {...mousePosition}/>
-	</div>
-	{/if}
 </div>
