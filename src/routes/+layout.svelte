@@ -38,7 +38,7 @@
 	
 </script>
 
-<div class=" relative max-h-screen h-screen overflow-hidden">
+<div class=" relative h-svh overflow-hidden">
 	<div class="flex md:justify-start justify-center absolute bottom-[-5px] w-full z-10 overflow-hidden">
 		<a href="/" class="btn btn-outline btn-secondary md:mx-2 mr-[2px]">
 			<button >
