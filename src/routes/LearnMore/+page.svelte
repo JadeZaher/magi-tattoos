@@ -22,9 +22,9 @@
 		</h1>
 		<div class="pb-3 md:text-base text-sm" >
 			<p>
-				From cute to the most hardcore tattoos, 
-				I offer a wide range of styles to suit every preference. 
-				Located in Kennewick Washington, Magi Tattoos prioritizes hygiene, creativity, and client satisfaction.
+				I offer a wide range of styles and am willing try any ideas you might have within the extent of my abilities. 
+				I’m adaptable and I want to work together to create something we both can love. 
+				Located in Kennewick Washington, I prioritizes hygiene, creativity, and client satisfaction. 
 				Explore my tattoo gallery and schedule your consultation today to start your tattoo journey.
 				Transform your ideas into lasting art.
 			</p>
